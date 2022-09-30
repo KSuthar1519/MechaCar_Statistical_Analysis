@@ -1,6 +1,12 @@
 # MechaCar_Statistical_Analysis
 To review the production data for insights that may help the manufacturing team of a car manufacturing unit.
 ## Linear Regression to predict MPG
+
+Below is the overview of all the different panes as seen on the R Studio screen:
+
+![image](https://user-images.githubusercontent.com/107962343/193313056-6975b492-801e-4703-83c0-5f796ebd43e0.png)
+
+
 ### Linear Regression analysis was carried out using R Studio.  Below is the image that shows the coefficients for the various variables that gives us information how the other variables affect and make up our response variable 'MPG'. 
 
 ![image](https://user-images.githubusercontent.com/107962343/193174950-fb4b91f7-b18e-42c0-b79b-d329f8089205.png)
@@ -61,4 +67,19 @@ Lastly, image for the t-test for lot 3 is shown below:
 
 p-value is >0.05, indicating that the null hypothesis cannot be rejected, meaning the true mean here is not equal to 1498.78.
 
+## Study Design: MechaCar vs Competition
 
+When comparing the MechaCar attributes to compare against the Competition, the customers may look into: mileage, cost of maintainence, resale value, safety ratings etc to name a few.
+Let's say we focus on mileage.
+
+* What metric or metrics are you going to test?
+We can test the mileage which again may contribute the cost of maintainence.
+
+* What is the null hypothesis or alternative hypothesis?
+The null hypothesis may be the mileage given by MechaCar cars is not significantly higher than the competitors. 
+
+* What statistical test would you use to test the hypothesis? And why?
+We can use ANOVA test to compare means mileages between different groups of cars.
+
+* What data is needed to run the statistical test?
+We will need a big enough sample of atleast 50 cars from MechaCar and the competitors that includes general mileage, city mileage, highway mileage, lot numbers and year of manufacture.
