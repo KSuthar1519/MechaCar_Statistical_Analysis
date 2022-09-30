@@ -22,3 +22,6 @@ mpg= -0.0104 + (6.267)(vehicle length) + (0.001245)(vehicle_weight) + (0.06877)(
 Looking at the above equation, we can consider the slope (coefficients) to be non-zero.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The r squared for this model is 0.7149. Since it is more than 0.7, we can predict a higher effect of the independent variables on the dependent variable (MPG) and that the data fit the model well. 
+
+## Summary Statistics on Suspension Coils
