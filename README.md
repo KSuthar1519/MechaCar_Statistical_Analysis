@@ -12,3 +12,13 @@ To review the production data for insights that may help the manufacturing team 
 
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+If a 95% level of confidence is predetermined, we can say that for variables that have p-values <0.05 is considered to be statistically significant that is provides a non-random amount of variance to the mpg values in the dataset. 
+So looking at the results, vehicle length (p-value=2.60e-12) and ground clearance(p-value=5.21e-08) are the two variables that provided a non-random amount of variance to the mpg. 
+
+* Is the slope of the linear model considered to be zero? Why or why not?
+The equation for mpg based on the intercept values and coefficients for all the other variables looks like this:
+mpg= -0.0104 + (6.267)(vehicle length) + (0.001245)(vehicle_weight) + (0.06877)(spoiler_angle) + (3.546)(ground_clearance) + (-3.411)(AWD)
+
+Looking at the above equation, we can consider the slope (coefficients) to be non-zero.
+
+* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
